@@ -62,7 +62,7 @@ class App extends Component {
             return (
               <img 
               key={idx}
-              className="product-image" 
+              className={this.state.current === img ? 'product-image active': 'product-image'}
               src={img} 
               alt="product-image" 
               onClick={(e) => {

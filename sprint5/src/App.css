@@ -39,8 +39,14 @@
 
 .product-image-container {
   display: inline-block;
+  margin: 2px;
 }
 
 .main-image {
 
+}
+
+.active{
+  opacity: .5;
+  border: solid 1px black;
 }
