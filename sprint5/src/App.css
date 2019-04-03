@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -30,4 +30,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.product-image {
+  width: 80px;
+  display: block;
+}
+
+.product-image-container {
+  display: inline-block;
+}
+
+.main-image {
+
 }
